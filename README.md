@@ -1,1 +1,0 @@
-# vixrola-ai-tools
