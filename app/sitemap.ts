@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next"; export default function sitemap(): MetadataRoute.Sitemap { const base="https://vixrola.com"; const paths=["/","/tools","/ai-humanizer","/ai-detector","/login","/register","/dashboard","/pricing","/faq","/blog","/privacy","/terms"]; return paths.map(path=>({url:base+path,lastModified:new Date()})); }
